@@ -1,0 +1,44 @@
+/* =====
+key
+====== */
+.key .page_title {
+    bottom: 60px;
+    right: 40px;
+    color: var(--white);
+    text-shadow: 0px 0px 2px #212121;
+}
+
+/* =====
+各session
+====== */
+.sec_voice {
+    margin-bottom: 0;
+}
+
+.voice_box {
+    margin: 0 auto;
+}
+
+.voice_box .voice_title {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.voice_box .voice_text {
+    margin: 0 auto;
+    padding-bottom: 24px;
+    width: 85%;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+/* 装飾 */
+.voice_box::after {
+    content: " ";
+    display: block;
+    background-color: var(--main-color);
+    width: 100px;
+    height: 2px;
+    margin: 0 auto 24px;
+}

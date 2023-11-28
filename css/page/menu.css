@@ -1,0 +1,63 @@
+/* =====
+key
+====== */
+.key .page_title {
+    top: 22px;
+    right: 12px;
+    text-shadow: 0px 0px 2px #fff;
+}
+
+/* =====
+各session
+====== */
+/* .session_box {
+    margin-top: 48px;
+    margin-bottom: 48px;
+} */
+
+.menu .session_box {
+    margin-bottom: 80px;
+}
+
+.session_box .session_title {
+    margin-bottom: 24px;
+}
+
+.session_box .session_title::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 60px;
+    border-radius: 1px;
+    background-color: #444;
+    margin: 8px auto 0;
+}
+
+.session_box .session_text {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 0 auto;
+    width: 85%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.session_box .session_text.center {
+    text-align: center;
+}
+
+.how_to_healing dl dt {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* =========
+session背景色
+========== */
+.sec_private_session {
+    /* margin: 0 calc(50% - 50vw);
+    width: 100vw; */
+    background: linear-gradient(#fff, var(--main-color) 15%, var(--main-color) 85%, #fff);
+}

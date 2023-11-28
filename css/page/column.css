@@ -1,0 +1,50 @@
+/* =====
+key
+====== */
+.key .page_title {
+    top: 150px;
+    right: 16px;
+    color: var(--white);
+    text-shadow: 0px 0px 2px #212121;
+}
+
+/* =====
+ul
+====== */
+
+.col_list {
+    margin: 40px auto 48px;
+    width: 90%;
+}
+
+.col_list li {
+    margin-bottom: 24px;
+    padding: 16px 0;
+    border-top: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+.col_list li:last-of-type {
+    margin-bottom: 0;
+}
+
+.col_list li .col_pic {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.col_list li .col_title {
+    margin-bottom: 8px;
+}
+
+/* colデザイン */
+.col_list li a {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.col_list li a .flex_l {
+    width: 70%;
+}
